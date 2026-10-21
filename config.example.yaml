@@ -1,0 +1,9 @@
+# Copia este archivo como config.yaml y escribe tus datos reales.
+# config.yaml está en .gitignore: NUNCA se sube al repositorio.
+postgres:
+  host: localhost        # para una instancia EC2: su IP o DNS público
+  port: 5432
+  database: dw_ventas    # se crea automáticamente si no existe
+  user: postgres
+  password: "TU_CONTRASEÑA_AQUI"
+  schema: dw

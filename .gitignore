@@ -1,0 +1,26 @@
+# --- Credenciales y secretos (NUNCA subir) ---
+# config.yaml contiene la contraseña de PostgreSQL
+config.yaml
+.env
+.env.*
+.aws/
+credentials
+*.pem
+*.key
+
+# --- Entornos virtuales ---
+venv/
+.venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Editor / sistema ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Nota: config.example.yaml (sin contraseña), sql/ y salidas/ SÍ se versionan.
